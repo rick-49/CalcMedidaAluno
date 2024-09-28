@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/lbEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"/>
+
+    <EditText
+        android:id="@+id/EdtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+
+
+    <TextView
+        android:id="@+id/lbNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:" />
+
+    <EditText
+        android:id="@+id/EdtNome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbDiciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diciplina:" />
+
+    <EditText
+        android:id="@+id/edtDiciplina"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:id="@+id/lbIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade:" />
+
+    <EditText
+        android:id="@+id/EdtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:id="@+id/lbNota01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nota 1°:" />
+
+    <EditText
+        android:id="@+id/edtNota01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+
+    <TextView
+        android:id="@+id/lbNota02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nota 2°" />
+
+    <EditText
+        android:id="@+id/edtNota02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/btCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"/>
+
+
+</LinearLayout>
